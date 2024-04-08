@@ -1,0 +1,101 @@
+#fun{
+  text-align:center;
+}
+span{
+  display:inline-block;
+  margin-top:10%;
+  vertical-align:middle;
+}
+.red{
+  background:#c10b0b;
+  color:white;
+}
+  .green{
+    background:green;
+    color:white;
+  }
+  .blue{
+    background:blue;
+    color:white;
+  }
+  .brown{
+    background:#6a1616;
+    color:white;
+  }
+  .black{
+    background:black;
+    color:white;
+  }
+  .yellow{
+    background:yellow;
+  }
+  .orange{
+    background:#ff5900;
+    color:white;
+  }
+  .purple{
+    background:purple;
+    color:white;
+  }
+  .pink{
+    background:pink;
+  }
+  .times{
+    border: solid 0.5px black;
+  }
+#fun{
+  text-align:center;
+}
+
+#one{
+  margin-left:8px;
+}
+
+#tree{
+  font-family:"Silkscreen";
+}
+#two{
+  font-family:"Antonio";
+}
+#four{
+  font-family:"VT323";
+}
+#six{
+  font-family:"Wellfleet";
+}
+#seven{
+  font-family:"Anton";
+}
+#eight{
+  font-family:"Mina";
+}
+#tin{
+  font-family:"Domine";
+}
+#elf{
+  font-family:"Mukta";
+}
+#twelf{
+  font-family:"Bebas Neue"
+}
+#thirt{
+  font-family:"DM Serif Display"
+}
+#fort{
+  font-family:"Varela Round"
+}
+#fift{
+font-family:"Beau Rivage";
+}
+#sixt{
+  font-family:"Black Ops One"
+}
+#sevent{
+  font-family:"Philosopher"
+}
+#project img {
+  width:95%;
+}
+#tree, #seven, #elf, #fort, #sevent{
+  margin-left:20px; 
+}

@@ -1,0 +1,155 @@
+html {
+  padding:20px;
+}
+#project {
+  width:1000px;
+  height:1000px;
+}
+/*specific refers to the paper image*/
+#specific {
+  width:1000;
+  height:1000;
+  position:absolute;
+  position: absolute;
+  border-left:2px solid black;
+}
+/*^specific refers to the paper image^*/
+
+#game img {
+  position:relative;
+  float:left;
+}
+#first {
+  width:50px;
+  height:50px;
+  position:relative;
+}
+#second {
+  width:50px;
+  height:50px;
+  position:relative;
+}
+#third {
+  width:50px;
+  height:50px;
+  position:relative;
+}
+#fourth {
+  position:relative;
+}
+#t1 {
+  width:50px;
+  height:50px;
+  left: 150px;
+  top: 0px;
+}
+#h {
+  width:50px;
+  height:50px;
+  left: 200px;
+  top: -50px;
+}
+#e1 {
+  width:50px;
+  height:50px;
+  left: 250px;
+  top: -95px;
+}
+#b {
+  width:50px;
+  height:50px;
+  left: 85px;
+  top: -75px;
+}
+#u{
+  width:50px;
+  height:50px;
+  left: 145px;
+  top: -120px;
+}
+#t2{
+  width:50px;
+  height:50px;
+  left:185px;
+  top:-170px;
+}
+#l{
+  width:50px;
+  height:50px;
+  left:225px;
+  top:-220px;
+}
+#e2{
+  width:50px;
+  height:50px;
+  left: 260px;
+  top: -270px;
+}
+#r{
+  width:50px;
+  height:50px;
+  left:300px;
+  top:-320px;
+}
+#d1{
+  width:50px;
+  height:50px;
+  left: 150px;
+  top: -425px;
+}
+#i1{
+  width:50px;
+  height:50px;
+  left: 200px;
+  top: -475px;
+}
+#d2{
+  width:50px;
+  height:50px;
+  left: 250px;
+  top: -525px;
+}
+#i2{
+  width:50px;
+  height:50px;
+  left: -25px;
+  top: -475px;
+}
+#t3{
+  width:50px;
+  height:50px;
+  left: -30px;
+  top: -475px;
+}
+#info {
+  position:relative;
+  z-index:555;
+}
+#cover1{
+  width:0px;
+  height:0px;
+}
+#cover2-1{
+  width:200px;
+  height:50px;
+  left: 125px;
+  top: -440px;
+}
+#cover2-2{
+  width:200px;
+  height:100px;
+  left: 125px;
+  top: -350px;
+}
+#cover3{
+  width:200px;
+  height:50px;
+  left: 125px;
+  top: -748px;
+}
+#cover4{
+  height:250px;
+  width:300px;
+  left: -225px;
+  top: -748px;
+}

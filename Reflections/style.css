@@ -1,0 +1,33 @@
+img{
+  height:200px;
+  width:294px;
+}
+
+#grid{
+  width: 650px;
+  height:675px;
+  z-index:5;
+}
+
+body{
+  padding-bottom:300px;
+}
+
+#mirror{
+  height:210px;
+  width:500px!important;
+  background-size:contain;
+  position:absolute;
+  top:173px;
+  left:300px;
+  z-index:10;
+}
+
+.row1{
+  border-right:10px solid white;
+}
+
+.solution img{
+  width:450px;
+  height:500px;
+}

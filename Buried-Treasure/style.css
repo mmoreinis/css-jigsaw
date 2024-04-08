@@ -1,0 +1,20 @@
+#map {
+  background-image:url(images/map.gif);
+  width:1000px;
+  height:1000px;
+}
+#treasure {
+  background-image:url(images/treasure.gif);
+  width:500px;
+  height:500px;
+  position:absolute;
+}
+
+ul {
+  background:#fff;
+  width:200px;
+  padding:10px;
+  position:fixed;
+  top:0;
+  right:0;
+}

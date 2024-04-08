@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hat Store - Solution</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+  <style>
+    
+    .column.side.left {
+      width:25%;
+      flex:25%;
+      min-width:25%;
+      flex-wrap: wrap;
+    }
+    
+    .column.middle {
+      width:50%;
+      min-width:50%;
+      flex:50%;
+      flex-wrap: wrap;
+    }
+    
+    .column.side.right {
+      width:25%;
+      min-width:25%;
+      flex:25%;
+      flex-wrap: wrap;
+    }
+
+    .row {
+      display:flex;
+      flex-wrap: wrap;
+    }
+
+    /* Responsive layout - makes a one column layout instead of a two-column layout */
+    @media (max-width: 1000px) {
+         .product {
+           width:75%;
+           padding-left:10%;
+         }
+      }
+      
+    /* Responsive layout - makes a one column layout instead of a two-column layout */
+    @media (max-width: 800px) {
+       .column.side.right, .column.middle {
+        flex: 100%;
+      }
+      .column.middle {
+        width:100%!important;
+      }
+      .product {
+        height:100%;
+        width:100%;
+        min-width:300px;
+        min-height:300px;
+        margin:auto;
+      }
+    }
+  </style>
+</head>
+  <body>
+     <div id="projecto">
+       <h1>Hat Store - Solution</h1>
+       <h3>Flexbox</h3>
+       <ul>
+         <li><a href="https://www.w3schools.com/css/css3_flexbox.asp">W3Schools Page</a></li>
+         <li><a href="index.html">Project</a></li>
+       </ul>
+     </div>
+    <div id="project">
+      <div id="store">
+        <div class="header">         
+          <h1>Epicfit</h1>
+          <div class="topnav"> 
+           <a href="home.html">| Home |</a> 
+           <a href="cart.html" >| Cart |</a> 
+           <a href="info.html">| Info |</a> 
+           <a href="profile.html">| Profile |</a>
+          </div>
+        </div>
+         <div class="row">
+            <div class="column side left">
+               <h1>Why Epicfit?</h1>
+               <p>The best hats for your sports and workouts. Keeps you hair in place. Our company guarantees best quality and style that is best fit for you.</p>
+            </div>
+            <div class="column middle">
+               <div class="product"></div>
+               <p><strong>Epicfit Black/white hat</strong> is the top selling hat on this site.<br>
+                  Cost: $29.99
+                 <button>Add to Cart</button>
+               </p>
+            </div>
+            <div class="column side right">
+               <h1>More Info</h1>
+               <p>Epicfit has the hat qualities and clothes qualities you would ever need for sports and workout. This hat has been reccommended by most sports companies as #1 hat for workout.</p>
+            </div>
+         </div>
+          <div class="footer">
+             <p>&copy; 2023 EpicFit Website. All rights reserved.</p>
+          </div>
+          <!-- Website Code End -->
+         </div>
+   </body>
+  <a href="../index.html">Back Home</a>
+
+</body>
+</html>
+
+
