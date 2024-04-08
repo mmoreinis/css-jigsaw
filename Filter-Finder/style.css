@@ -1,0 +1,57 @@
+#gallery {
+  width: 750px;
+}
+
+.container {
+   display:inline-block;
+   position: relative;
+}
+
+img {
+  width:200px;
+  height:200px;
+}
+
+.container p {
+   font-size: 16px;
+   padding:20px 20px;
+   display:block;
+}
+
+#ross p, #monica p, #rachel p {
+   background-color:red;
+   color: white;
+}
+
+ #pheobe p, #chandler p, #joey p   {
+   background-color:#00ff00;
+   color: black;
+}
+
+.container#ross {
+  padding-top:12px;
+  height:200px;
+  background-color:#ccc;
+  box-sizing:border-box;
+}
+
+#ross img {
+  height:188px;
+}
+
+#ross img:hover, #ross:hover {
+  background-color:#fff;
+  opacity: 0.5;
+}
+
+.middle {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+  transform: translate(-100%, -50%);
+   -ms-transform: translate(-50%, -50%);
+}
+
+.container#ross:hover {
+   background-color:#ccc!important;
+}

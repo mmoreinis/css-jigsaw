@@ -1,0 +1,113 @@
+#c-letters {
+  background-image: url('images/clock.png');
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: left 10px top 200px;
+  height: 500px;
+  width: 500px;
+  position:relative;
+  border:1px solid black;
+}
+
+#i1{
+ width: 67px;
+ height: 110px;
+ background-repeat: no-repeat;
+ position:absolute;
+ left: 200px;
+ top: 150px;
+ background-image: url('images/i1.png');
+ background-size: contain;
+}
+#i2{
+ width: 67px;
+ height: 67px;
+ background-repeat: no-repeat;
+ position:absolute;
+ left: 425px;
+ top: 75px;
+  background-image: url('images/i2.png');
+  background-size: contain;
+}
+#i3{
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  position:absolute;
+  left: 340px;
+  top: 300px;
+   background-image: url('images/i3.png');
+   background-size: contain;
+}
+#i4{
+ width: 67px;
+ height: 67px;
+ background-repeat: no-repeat;
+ position:absolute;
+ left: 265px;
+ top: 20px;
+  background-image: url('images/i1.png');
+  background-size: contain;
+}
+#i5{
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  position:absolute;
+  left: 115px;
+  top: 400px;
+   background-image: url('images/i5.png');
+   background-size: contain;
+}
+
+#underscore1{
+   width: 80px;
+   height: 80px;
+   background-repeat: no-repeat;
+   position:absolute;
+   left: 125px;
+   top: 490px;
+    background-image: url('images/underscore.png');
+    background-size: contain;
+}
+
+#underscore2{
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  position:absolute;
+  left: 200px;
+  top: 490px;
+   background-image: url('images/underscore.png');
+   background-size: contain;
+}
+#underscore3{
+   width: 80px;
+   height: 80px;
+   background-repeat: no-repeat;
+   position:absolute;
+   left: 275px;
+   top: 490px;
+    background-image: url('images/underscore.png');
+    background-size: contain;
+}
+#underscore4{
+   width: 80px;
+   height: 80px;
+   background-repeat: no-repeat;
+   position:absolute;
+   left: 350px;
+   top: 490px;
+    background-image: url('images/underscore.png');
+    background-size: contain;
+}
+#underscore5{
+   width: 80px;
+   height: 80px;
+   background-repeat: no-repeat;
+   position:absolute;
+   left: 425px;
+   top: 490px;
+    background-image: url('images/underscore.png');
+    background-size: contain;
+}

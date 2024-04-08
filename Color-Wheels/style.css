@@ -1,0 +1,28 @@
+img {
+  width:200px;
+}
+
+.circle {
+  height: 200px;
+  width:200px;
+  background-color: black;
+  border-radius: 50%;
+  z-index:1;
+  display:inline-block;
+}
+
+.circl {
+  height: 200px;
+  width:200px;
+  border-radius: 50%;
+  z-index:2;
+  position:relative;
+  left:5px;
+  top:5px;
+}
+
+.circl div {
+  height: 190px;
+  width: 190px;
+}
+
