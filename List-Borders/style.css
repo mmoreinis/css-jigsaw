@@ -1,0 +1,33 @@
+#timestables li {
+   line-height:2em;
+   font-size:12pt;
+}
+
+
+
+ol li {
+   clear:left;
+}
+
+ol li ol {
+   width:130px;
+}
+
+h4 {
+   width:100%;
+   display:block;
+   margin-left:-20px;
+   padding-left:10px;
+   text-align:center;
+   font-size:24pt;
+   margin-bottom:10px;
+   padding-bottom:5px;
+ }
+
+ol li ol li {
+   width:80%;
+ }
+
+ol#tables, ol#tables ol  {
+  list-style-type:none;
+}
