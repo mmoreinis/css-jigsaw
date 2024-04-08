@@ -1,0 +1,79 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding-bottom:50px;
+}
+
+#project {
+  padding:0 20px;
+}
+
+#store {
+  text-align:center;
+  margin:20px;
+}
+
+.header {
+  color: #333;
+  background: #ccc;
+  padding-top:20px;
+}
+
+.topnav, .topnav a {
+  background-color: #333;
+  color: #f2f2f2;
+  display:block;
+}
+
+.topnav a {
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {
+  padding-top:20px;
+}
+
+.column.side {
+  text-align:left;
+  padding: 20px;
+}
+
+.middle, .left {
+  color: #333;
+  background: white;
+  text-align:center;
+}
+
+.right {
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+.footer {
+  background-color: #333;
+  color: #f2f2f2;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.product {
+  width:400px;
+  height:300px;
+  background: url("hat2.jpg") no-repeat;
+  background-color:white;
+  background-size:contain;
+  margin:auto;
+}
+
+.product:hover {
+  background-image:url("hat1.jpg");
+}

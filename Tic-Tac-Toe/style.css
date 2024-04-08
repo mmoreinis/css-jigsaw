@@ -1,0 +1,40 @@
+#board {
+  width: 450px;
+  background-image: url("background.png");
+  background-size: 450px;
+  padding: 2px 0 0 10px;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+pre {
+  font-weight:bold;
+  font-size:14pt;
+}
+
+#board img {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  margin: 5px 5px;
+  border: 2px solid orange;
+  display: inline-block;
+}
+
+.click:hover {
+  background: yellow;
+  border: 2px solid magenta;
+}
+
+.click {
+  border: 2px solid blue;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.square {
+  padding-top: 5px;
+  border: 2px dotted green;
+  display: inline-block;
+}

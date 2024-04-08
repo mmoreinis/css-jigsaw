@@ -1,0 +1,19 @@
+table, td{
+  border:1px solid;
+  border-collapse: collapse;
+  }
+table {
+  width:100%;
+}
+.row-1, #R1{
+  background-image: url('teal.png');
+}
+.row-2, #R2{
+  background-image: url('purple.png');
+}
+.row-3, #R3{
+  background-image: url('pink.png');
+}
+.h1 {
+  height:120px;
+}

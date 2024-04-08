@@ -1,0 +1,49 @@
+#gameboard {
+}
+
+.gallery p{
+  display:none;
+}
+
+.gallery img{
+  opacity:1;
+}
+
+.gallery:hover p {
+  display:block;
+  margin-top:-60px;
+  text-align:center;
+  font-weight:bold;
+}
+
+.gallery:hover img{
+  opacity:.1;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery:active {
+  background-color:green;
+  color:white;
+}
+
+div.gallery {
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+img {
+
+  height:200px!important;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
