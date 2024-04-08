@@ -1,0 +1,39 @@
+.box img{
+  height:45px;
+  width:auto;
+}
+
+.column img {
+  height:20px;
+  width:auto;
+}
+ol.first li {
+  display:block;
+  width:85px;
+}
+
+ol.second li{
+  display:block;
+  width:130px;
+}
+
+ol.third li{
+  display:block;
+  width:70px;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #white;
+}
+
+.box li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2px 2px;
+  color: black;
+}

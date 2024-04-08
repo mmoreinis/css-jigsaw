@@ -1,0 +1,48 @@
+#concentration {
+  overflow: visible;
+  text-align: center;
+  padding-top:30px;
+}
+
+.home {
+  position: relative;
+}
+
+.jargon {
+  font-size: 160px;
+  display:block;
+  margin-top:-10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  height: 160px;
+  width: 200px;
+  border: 1px solid black;
+  margin-bottom:3px;
+}
+
+.dropdown:hover{
+  background-color:SkyBlue;
+}
+
+.dropdown-content {
+  height: 200px;
+  width: 160px;
+  margin-top:-9px;
+  padding-top:60px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display:none;
+}
+
+.dropdown:hover .dropdown-content {
+  height: 160px;
+  width: 100%;
+  margin-top:-175px;
+}
+
+
+
