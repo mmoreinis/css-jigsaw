@@ -1,0 +1,7 @@
+td, th {
+  padding:5px;
+  border-bottom:1px solid #ccc;
+}
+th {
+  background-color:gray;
+}
