@@ -12,7 +12,6 @@ html {
 
 #ball {
         position:absolute;
-        height: 100px;
         display:block;
         padding:50px;
         background-image: url('./img/ball.png');
